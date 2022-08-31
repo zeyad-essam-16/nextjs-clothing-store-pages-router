@@ -63,7 +63,7 @@ const Footer = () => {
       <div className={classes.copy_right}>
         <p>
           &copy; Created by{" "}
-          <Link href="https://my-portfolio-six-wheat-64.vercel.app/">
+          <Link href="https://ziadessam.com/">
             <a target="_blank">Ziad Esam</a>
           </Link>
         </p>
