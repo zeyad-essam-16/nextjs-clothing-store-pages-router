@@ -1,0 +1,120 @@
+.form_wrapper {
+  width: 95%;
+  max-width: 900px;
+  margin: 30px auto 10px;
+  position: relative;
+}
+
+.form_wrapper h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: "Playfair Display", serif;
+  letter-spacing: 1px;
+}
+
+@media (max-width: 767px) {
+  .form_wrapper h1 {
+    font-size: 24px;
+  }
+}
+
+.form_wrapper .inputs_wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 767px) {
+  .form_wrapper .inputs_wrapper {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}
+
+.form_wrapper .form_control {
+  position: relative;
+}
+
+.form_control .label_wrapper {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.form_control .label_wrapper label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 19px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.label_wrapper i {
+  color: red;
+  font-size: 14px;
+  display: none;
+}
+
+.form_control.error i {
+  display: block;
+}
+
+.form_control input,
+.form_control textarea {
+  width: 100%;
+  padding: 15px;
+  background-color: #fff;
+  color: #000;
+  font-size: 18px;
+  border: 2px solid #b9b9b9;
+}
+
+.form_control input:focus {
+  outline: none;
+}
+
+.form_control textarea {
+  margin-bottom: 5px;
+  resize: none;
+}
+
+.form_control textarea:focus {
+  outline: none;
+}
+
+.form_wrapper .form_submit {
+  position: relative;
+  background-image: linear-gradient(45deg, #032330, #143e4e);
+  border-radius: 5px;
+}
+
+.form_wrapper .form_submit button {
+  width: 100%;
+  padding: 14px;
+  background-image: inherit;
+  color: #fff;
+  font-size: 22px;
+  border: 1px solid #000;
+  border-radius: inherit;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.status_wrapper {
+  margin-top: 7px;
+  min-height: 25px;
+}
+
+.status_wrapper p {
+  font-size: 19px;
+  text-transform: capitalize;
+}
+
+p.error {
+  color: var(--errorColor);
+}
+
+p.success {
+  color: rgb(32, 102, 32);
+}

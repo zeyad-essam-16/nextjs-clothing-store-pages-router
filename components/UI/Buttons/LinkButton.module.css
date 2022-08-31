@@ -1,0 +1,28 @@
+.link_button {
+  display: block;
+  padding: 12px 15px;
+  background-color: #000;
+  font-size: 1.1rem;
+  text-transform: capitalize;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+@media (min-width: 768px) {
+  .link_button:hover {
+    background-color: #e3e3e3;
+    color: #000;
+  }
+}
+
+@media (max-width: 767px) {
+  .link_button {
+    font-size: 14px;
+    width: 9rem;
+    padding: 12px 30px;
+  }
+}

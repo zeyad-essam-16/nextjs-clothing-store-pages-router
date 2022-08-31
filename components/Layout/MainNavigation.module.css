@@ -1,0 +1,156 @@
+.header {
+  position: sticky;
+  top: 0;
+  height: 60px;
+  background-color: #fff;
+  z-index: 150;
+  color: #000;
+  user-select: none;
+}
+
+@media (max-width: 991px) {
+  .header {
+    height: 55px;
+    border-bottom: 1px solid rgb(200, 200, 200);
+  }
+}
+
+.header .header_inner {
+  height: 100%;
+  width: 95%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .contact {
+  height: 100%;
+  width: 35%;
+  display: flex;
+  align-items: center;
+  font-size: 0.95rem;
+}
+
+.header .contact .contact_link {
+  width: fit-content;
+  padding: 10px 0;
+}
+
+.contact .contact_link a {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 400;
+}
+
+.contact .contact_link a i {
+  font-size: 1.2rem;
+}
+
+@media (max-width: 991px) {
+  .header .contact {
+    display: none;
+  }
+}
+
+.header .logo {
+  font-size: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header .logo .pc_logo {
+  width: 280px;
+  padding: 15px;
+}
+
+@media (max-width: 991px) {
+  .header .logo .pc_logo {
+    display: none;
+  }
+}
+
+.header .logo .mobile_logo {
+  width: 70px;
+  padding: 10px;
+}
+
+@media (min-width: 992px) {
+  .header .logo .mobile_logo {
+    display: none;
+  }
+}
+
+/* .header .logo i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+.header .actions {
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  width: 35%;
+}
+
+.header .actions > ul {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 24px;
+}
+
+@media (max-width: 767px) {
+  .header .actions > ul {
+    gap: 0;
+    font-size: 22px;
+  }
+}
+
+.header .actions > ul > li {
+  padding: 5px;
+  position: relative;
+}
+
+.mobile_button {
+  height: 100%;
+  width: 35%;
+  display: flex;
+  align-items: center;
+}
+
+@media (min-width: 992px) {
+  .mobile_button {
+    display: none;
+  }
+}
+
+.mobile_button button {
+  background-color: transparent;
+  padding: 5px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.mobile_button button i {
+  color: #000;
+  font-size: 27px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: opacity-up 0.4s ease;
+}
+
+@keyframes opacity-up {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

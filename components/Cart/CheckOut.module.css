@@ -1,0 +1,64 @@
+.checkout {
+  width: 45%;
+  height: 100%;
+  overflow: auto;
+}
+
+@media (max-width: 991px) {
+  .checkout {
+    width: 100%;
+  }
+}
+
+.checkout h2 {
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.checkout .checkout_inner {
+  padding: 10px;
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #e1e1e1;
+}
+
+.checkout .checkout_inner .order_subtotal {
+  margin-bottom: 15px;
+  padding: 10px 0;
+  border-bottom: 1px solid #e1e1e1;
+  display: flex;
+  justify-content: space-between;
+}
+
+.checkout_inner .order_total {
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.checkout_inner .delevery_info {
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  color: #000;
+}
+
+.checkout_inner button {
+  display: block;
+  text-align: center;
+  width: 100%;
+  padding: 10px;
+  font-size: 19px;
+  font-weight: bold;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  background-color: #fff;
+}
+
+.checkout_inner button:hover {
+  opacity: 0.7;
+}

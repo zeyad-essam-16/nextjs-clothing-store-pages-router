@@ -1,0 +1,52 @@
+.tab_wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #fff;
+  z-index: 100;
+}
+
+.navigation_tab {
+  background-color: #fff;
+}
+
+.navigation_tab .tab_header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #e1e1e1;
+}
+
+.navigation_tab .tab_header h2 {
+  padding: 16px;
+  flex: 1;
+  font-size: 17px;
+  font-weight: 300;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.navigation_tab .tab_header i {
+  width: 55px;
+  border-right: 1px solid #e1e1e1;
+  cursor: pointer;
+  font-size: 27px;
+}
+
+.navigation_tab ul {
+  display: block;
+  padding: 10px 14px;
+}
+
+.navigation_tab li {
+  background-color: #fff;
+}
+
+.navigation_tab li a {
+  display: block;
+  padding: 14px 0;
+  color: #000;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+}

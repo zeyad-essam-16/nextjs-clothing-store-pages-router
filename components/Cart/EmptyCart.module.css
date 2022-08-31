@@ -1,0 +1,23 @@
+.empty {
+  width: 95%;
+  max-width: 1100px;
+  margin: 40px auto;
+  text-align: center;
+}
+
+.empty h1 {
+  margin-bottom: 15px;
+}
+
+.empty a {
+  margin: 20px auto;
+  display: block;
+  width: 170px;
+  padding: 10px 20px;
+  background-color: #000;
+  color: #fff;
+  border-radius: 4px;
+  font-weight: bold;
+  text-align: center;
+  transition: all 0.3s ease;
+}

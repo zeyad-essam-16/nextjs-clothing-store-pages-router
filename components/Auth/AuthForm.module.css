@@ -1,0 +1,100 @@
+.form_wrapper {
+  width: 95%;
+  max-width: 500px;
+  margin: 20px auto;
+}
+
+.form_wrapper h1 {
+  text-align: center;
+  position: relative;
+  margin-bottom: 25px;
+  font-size: 40px;
+  font-family: "Playfair Display", serif;
+  letter-spacing: 1px;
+}
+
+@media (max-width: 767px) {
+  .form_wrapper h1 {
+    font-size: 30px;
+  }
+}
+
+.form_wrapper form {
+  width: 100%;
+}
+
+.form_wrapper form .form_control {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 10px;
+}
+
+.form_control label {
+  font-size: 22px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+@media (max-width: 767px) {
+  .form_control label {
+    font-size: 19px;
+  }
+}
+
+.form_control input {
+  font-size: 22px;
+  padding: 10px;
+  border: 1.3px solid #e1e1e1;
+  outline: none;
+  transition-delay: 0.2s;
+}
+
+.form_control.has_error input {
+  border-color: #c53929;
+}
+
+.form_wrapper .button_wrapper {
+  position: relative;
+  background-color: #000;
+  overflow: hidden;
+  margin: 20px 0 10px;
+}
+
+.form_wrapper button {
+  display: block;
+  width: 100%;
+  padding: 14px;
+  outline: none;
+  border: none;
+  background-color: #000;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.form_wrapper button:disabled {
+  pointer-events: none;
+}
+
+.form_wrapper a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+  color: #333;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.form_wrapper a i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.notification_wrapper {
+  min-height: 22px;
+}

@@ -1,0 +1,40 @@
+.images_modal {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgb(246, 245, 243);
+  z-index: 200;
+  user-select: none;
+}
+
+.swiper_wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+.image_Wrapper {
+  position: relative;
+  width: 100%;
+  margin: auto;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.close_icon {
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: 27px;
+  z-index: 300;
+}
+
+.close_icon i {
+  width: 70px;
+  height: 70px;
+  background-color: #fff;
+  cursor: pointer;
+}

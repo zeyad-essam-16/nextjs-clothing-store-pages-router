@@ -1,0 +1,22 @@
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 110;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal {
+  position: fixed;
+  width: 80vw;
+  max-width: 1400px;
+  height: 80vh;
+  top: calc(50%);
+  left: calc(50%);
+  transform: translate(-50%, -50%);
+  background-color: #faf9f8;
+  font-weight: bold;
+  z-index: 120;
+}

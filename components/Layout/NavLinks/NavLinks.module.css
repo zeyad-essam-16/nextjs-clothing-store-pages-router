@@ -1,0 +1,69 @@
+.navlinks_wrapper {
+  position: sticky;
+  top: 60px;
+  z-index: 100;
+  background-color: #fff;
+  user-select: none;
+  transition: all 0.3s ease;
+}
+
+.navlinks_wrapper.hide {
+  /* 1px to show the border when its hidden */
+  transform: translateY(calc(1px - 100%));
+}
+
+@media (max-width: 991px) {
+  .navlinks_wrapper {
+    display: none;
+  }
+}
+
+.nav_links {
+  position: relative;
+  height: 50px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  border-bottom: 1px solid rgb(200, 200, 200);
+}
+
+.nav_links > ul {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav_links > ul > li {
+  position: relative;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  font-size: 1rem;
+  font-weight: 500;
+  /* letter-spacing: 0.058rem; */
+  text-transform: capitalize;
+}
+
+.nav_links > ul > li > a,
+.nav_links > ul > li > span {
+  height: 100%;
+  display: flex;
+  padding: 0px 20px;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.nav_links > ul > li > a:hover,
+.nav_links > ul > li > span:hover {
+  color: rgb(86, 86, 86);
+}
+
+.nav_links > ul > li > span i {
+  font-size: 20px;
+  line-height: 22px;
+}

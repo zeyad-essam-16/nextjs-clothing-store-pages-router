@@ -1,0 +1,28 @@
+.titled_section {
+  width: 100%;
+  background-color: #fff;
+}
+
+.titled_section > h2 {
+  padding: 30px 20px;
+  border-bottom: 1px solid #e1e1e1;
+  font-size: 30px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+@media (max-width: 767px) {
+  .titled_section > h2 {
+    padding: 25px;
+    text-align: center;
+    font-size: 26px;
+  }
+}
+
+.titled_section .content_wrapper {
+  padding: 30px 20px 15px;
+  min-height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

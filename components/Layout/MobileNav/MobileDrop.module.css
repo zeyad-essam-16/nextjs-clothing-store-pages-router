@@ -1,0 +1,26 @@
+.mobile_link .navigationTap_toggle {
+  padding: 14px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 20;
+  cursor: pointer;
+}
+
+.mobile_link .navigationTap_toggle > i {
+  font-size: 25px;
+  margin-right: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navigation_tap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #fff;
+  z-index: 100;
+}

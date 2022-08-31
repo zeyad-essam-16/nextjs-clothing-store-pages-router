@@ -1,0 +1,35 @@
+.cart_icon {
+  padding: 5px 0;
+  position: relative;
+}
+
+@media (max-width: 767px) {
+  .cart_icon {
+    padding: 2px;
+  }
+}
+
+.cart_icon i {
+  padding: 5px 0;
+  font-size: 24px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.cart_icon > span {
+  width: 22px;
+  height: 22px;
+  position: absolute;
+  top: -2px;
+  right: -2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  padding: 5px;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 50%;
+  background-color: #c54040;
+  pointer-events: none;
+}
