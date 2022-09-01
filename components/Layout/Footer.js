@@ -64,7 +64,7 @@ const Footer = () => {
         <p>
           &copy; Created by{" "}
           <Link href="https://ziadessam.com/">
-            <a target="_blank">Ziad Esam</a>
+            <a target="_blank">Ziad Essam</a>
           </Link>
         </p>
       </div>
