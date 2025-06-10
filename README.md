@@ -32,4 +32,4 @@ Due to inactivity, the project’s **MongoDB** database is currently down and ca
 ## Live Demo
 
 You can preview the live version of the project here:  
-👉 [Live Demo](https://black-diamond-store.vercel.app/)
+[Live Demo](https://black-diamond-store.vercel.app/)
